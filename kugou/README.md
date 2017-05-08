@@ -1,29 +1,11 @@
-# music
+仿酷狗音乐
 
-> A Vue.js project
+主要技术栈：
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:1002npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+    vuejs2.0
+    vue-router
+    vuex
+    vue-resource
+    mint-ui
+    
+   工作之余写这个播放器，前后花了差不多一个月。难点在跨域取数据，原作是用php从kugou趴到代理服务器，然后再请求服务器的数据。不懂后端，于是又去学了一通php，最后还是用 proxyTable 取的数据。
