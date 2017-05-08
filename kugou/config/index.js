@@ -32,7 +32,7 @@ module.exports = {
             target: 'http://cs003.m2828.com/apis',
             changeOrigin: true,
             pathRewrite: {
-              '^/apis': '/apis'
+              '^/apis': ''
             }
         }
     },
