@@ -18,8 +18,8 @@ const store = new Vuex.Store({
       songLength: 0,
       currentFlag: false
     },   
-    head: {                 //当前歌手相关信息
-      toggle: false,
+    head: {                 //rank-head
+      toggle: false,        //rank-head 是否显示
       title: '',
       style: {'background': 'rgba(43,162,251,0)'}
     }, 
