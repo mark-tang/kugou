@@ -51,7 +51,6 @@
           singer.imgSrc = list[i].querySelector('.panel-img-left img').getAttribute('_src');
           singer.name = list[i].querySelector('.panel-img-content-first').innerText;
           singer.location = '/singer/info/' + list[i].querySelector('a').href.substr(31);
-          //alert(singer.location);
           this.singerList.push(singer);
         }
       }
