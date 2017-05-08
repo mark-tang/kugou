@@ -49,7 +49,6 @@ const store = new Vuex.Store({
       }
       state.listenCount++;
       state.audio = {...(state.audio), ...audio};
-      //alert(state.listenCount);
     },   
     setAudioTime(state, time){
       state.audio.currentLength = time;
